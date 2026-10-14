@@ -1,0 +1,25 @@
+ @import "tailwindcss";
+
+@theme {
+  --color-primary: #0052cc;
+  --color-primary-hover: #003d99;
+  --color-primary-light: #3b82f6;
+  --color-brand-dark: #0f172a;
+  --color-surface: #f8fafc;
+  --color-ink: #0f172a;
+  --color-ink-muted: #475569;
+
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --font-logo: "Nunito", sans-serif;
+
+  --shadow-soft: 0 12px 32px -4px rgba(15, 23, 42, 0.08);
+}
+
+/* Активний стан для кнопок інтерактивного калькулятора */
+.active-pill {
+  background-color: var(--color-primary);
+  color: #ffffff;
+  border-color: var(--color-primary);
+  box-shadow: 0 4px 12px rgba(0, 82, 204, 0.2);
+}
